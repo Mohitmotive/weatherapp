@@ -43,6 +43,8 @@ class SplashView: UIView {
         addSubview(splashTitleLabel)
         addSubview(startButton)
         
+        print("v2")
+        
         NSLayoutConstraint.activate([
             splashTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             splashTitleLabel.centerYAnchor.constraint(equalTo: centerYAnchor, constant: -50),
