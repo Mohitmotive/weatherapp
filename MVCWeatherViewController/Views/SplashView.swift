@@ -11,7 +11,7 @@ class SplashView: UIView {
     
     let splashTitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Weather App"
+        label.text = "Weather App for main"
         label.font = UIFont.boldSystemFont(ofSize: 40)
         label.textColor = .white
         label.textAlignment = .center
