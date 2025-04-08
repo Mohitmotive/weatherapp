@@ -42,6 +42,8 @@ class SplashView: UIView {
         backgroundColor = .systemTeal
         addSubview(splashTitleLabel)
         addSubview(startButton)
+        
+        print("Mohit kumar")
 
         NSLayoutConstraint.activate([
             splashTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
