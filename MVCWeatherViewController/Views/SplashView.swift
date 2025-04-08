@@ -21,7 +21,7 @@ class SplashView: UIView {
     
     let startButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setTitle("Start", for: .normal)
+        button.setTitle("Start App", for: .normal)
         button.backgroundColor = .systemBlue
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 12
