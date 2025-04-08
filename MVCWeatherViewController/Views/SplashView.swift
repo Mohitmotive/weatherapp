@@ -45,6 +45,8 @@ class SplashView: UIView {
         
         print("Mohit kumar")
 
+        print("Mohit kumar")
+        
         NSLayoutConstraint.activate([
             splashTitleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
             splashTitleLabel.centerYAnchor.constraint(equalTo: centerYAnchor, constant: -50),
